@@ -1,0 +1,117 @@
+header {
+    align-items: center;
+    display: flex;
+    font-size:x-large;
+    justify-content: center;
+    position: relative;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(
+    45deg,
+    #fceb05 05%,
+    #f59c17 20%,
+    #af1068 60%,
+    #4a045f 95%
+    );
+    }
+
+    main {
+        align-items: center;
+        display: flex;
+        height: 400px;
+        justify-content: center;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-shadow:slateblue;
+    }
+
+    .imagem1 img{
+        height: 270px;
+        width: 270px;
+        opacity: 0;
+        }
+
+    .imagem2 img{
+        height: 270px;
+        width: 270px;
+        opacity: 0;
+        }
+
+    .imagem3 img{
+        height: 270px;
+        width: 270px;
+        opacity: 0;
+        }
+
+    .imagem4 img{
+        height: 270px;
+        width: 270px;
+        opacity: 0;
+        }
+
+    .imagem1 {
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 360px;
+        width: 360px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px); 
+        -webkit-backdrop-filter: blur(4px);
+    }
+
+    .imagem2 {
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 360px;
+        width: 360px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px); 
+        -webkit-backdrop-filter: blur(4px);
+    }
+
+    .imagem3 {
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 360px;
+        width: 360px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px); 
+        -webkit-backdrop-filter: blur(4px);    
+    }
+
+    .imagem4 {
+        align-items: center;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 360px;
+        width: 360px;
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(4px); 
+        -webkit-backdrop-filter: blur(4px);
+    }
+    
