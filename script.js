@@ -1,11 +1,11 @@
 const imagem1= document.getElementById ('img1');
-const nomepersonagem1 = document.querySelector ('#nome-personagem1');
+const Personagem1 = document.querySelector ('#nome-personagem1');
 const imagem2= document.getElementById ('img2');
-const nomepersonagem2 = document.querySelector ('#nome-personagem2');
+const Personagem2 = document.querySelector ('#nome-personagem2');
 const imagem3= document.getElementById ('img3');
-const nomepersonagem3 = document.querySelector ('#nome-personagem3');
+const Personagem3 = document.querySelector ('#nome-personagem3');
 const imagem4= document.getElementById ('img4');
-const nomepersonagem4 = document.querySelector ('#nome-personagem4');
+const Personagem4 = document.querySelector ('#nome-personagem4');
 
 let nomeDoPersonagem1;
 let nomeDoPersonagem2;
@@ -38,7 +38,7 @@ pegarPersonagem1 = () => {
         imagem1.src = data.image;
         imagem1.alt = data.name;
         nomeDoPersonagem1 = data.name;
-        nomepersonagem1.innerHTML = `Este personagem é ${nomeDoPersonagem1}`;
+        Personagem1.innerHTML = `Este personagem é ${nomeDoPersonagem1}`;
         imagem1.style.opacity = 1;
     })
 }
@@ -55,7 +55,7 @@ pegarPersonagem2 = () => {
         imagem2.src = data.image;
         imagem2.alt = data.name;
         nomeDoPersonagem2 = data.name;
-        nomepersonagem2.innerHTML = `Este personagem é ${nomeDoPersonagem2}`;
+        Personagem2.innerHTML = `Este personagem é ${nomeDoPersonagem2}`;
         imagem2.style.opacity = 1;
     })
 }
@@ -72,7 +72,7 @@ pegarPersonagem3 = () => {
         imagem3.src = data.image;
         imagem3.alt = data.name;
         nomeDoPersonagem3 = data.name;
-        nomepersonagem3.innerHTML = `Este personagem é ${nomeDoPersonagem3}`;
+        Personagem3.innerHTML = `Este personagem é ${nomeDoPersonagem3}`;
         imagem3.style.opacity = 1;
     })
 }
@@ -89,7 +89,7 @@ pegarPersonagem4 = () => {
         imagem4.src = data.image;
         imagem4.alt = data.name;
         nomeDoPersonagem4 = data.name;
-        nomepersonagem4.innerHTML = `Este personagem é ${nomeDoPersonagem4}`;
+        Personagem4.innerHTML = `Este personagem é ${nomeDoPersonagem4}`;
         imagem4.style.opacity = 1;
     })
 }
